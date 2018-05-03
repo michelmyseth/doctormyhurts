@@ -1,0 +1,113 @@
+* {
+	box-sizing: border-box;
+}
+
+html, body, .full-height {
+  height: 100%;
+  margin: 0;
+  background: rgb(239, 239, 239);
+  font-family: 'Arvo', serif;
+
+    }
+
+}
+
+.grid {
+	overflow: scroll;
+}
+
+.row {
+	display: flex;
+	flex: 1;
+  	flex-direction: row;
+}
+
+.col {
+	display: flex;
+  	flex: 1;
+  	flex-direction: column;
+
+ }
+
+ .row2 {
+ 	display: flex;
+ 	flex: 3.5;
+ 	flex-direction: row;
+ 	
+}
+
+.col2 {
+	display: flex;
+	flex: 0.8;
+	flex-direction: column;
+	
+}
+
+#img {
+	display: flex;
+	flex: 1;
+	justify-content: center;
+	align-items: center;
+	width: auto;
+	height: auto;
+	
+}
+
+.circle:hover {
+	background-color: red;
+	opacity: 0.8;
+}
+
+.circle{
+	position: absolute;
+	flex:1;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(105,105,105);
+    border-radius: 100%;
+    opacity: 0.7;
+    transition: 2s;
+}
+
+#p1 /*epaule*/ {
+	top: 21%;
+	left: 38%;
+	
+}
+
+
+#p2 /*le coude*/ {
+	top: 30%;
+	right: 52%;	
+}
+
+#p3 /*poignet*/ {
+	top: 285px;
+	right: 59%;
+}
+
+#p4 /*hanche*/ {
+	top: 340px;
+	right:54%;
+}
+
+#p5 /*genou*/ {
+	top: 400px;
+	right:57%;
+}
+
+#p6 /*cheville*/ {
+	top: 480px;
+	right: 54%;
+
+}
+
+.text {
+
+	display: inline-block;
+
+	border:solid pink 6px;
+	width: 100px;
+	height: 100px;
+
+}
